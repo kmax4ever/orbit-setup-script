@@ -60,8 +60,8 @@ async function main() {
   )
   const config: L3Config = JSON.parse(configRaw)
   let rs: RuntimeState
-  if (fs.existsSync('./config/resumeState.json')) {
-    const stateRaw = fs.readFileSync('./config/resumeState.json', 'utf-8')
+  if (fs.existsSync('./output/resumeState.json')) {
+    const stateRaw = fs.readFileSync('./output/resumeState.json', 'utf-8')
     rs = JSON.parse(stateRaw)
     //check integrity
     checkRuntimeStateIntegrity(rs)
@@ -198,9 +198,9 @@ async function main() {
   } catch (error) {
     console.error('Error occurred:', error)
     const runtimeString = JSON.stringify(rs)
-    fs.writeFileSync('./config/resumeState.json', runtimeString)
+    fs.writeFileSync('./output/resumeState.json', runtimeString)
     console.log(
-      "Seems something went wrong during this process, but don't worry, we have recorded the deployed and initialized contracts into ./config/resumeState.json, next time you rerun the script, it will restart from where it failed "
+      "Seems something went wrong during this process, but don't worry, we have recorded the deployed and initialized contracts into ./output/resumeState.json, next time you rerun the script, it will restart from where it failed "
     )
   }
 }
