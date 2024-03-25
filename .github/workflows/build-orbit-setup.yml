@@ -1,8 +1,6 @@
 name: Build orbit-setup Docker Image
 on:
   push:
-    branches:
-      - 'altlayer-v2'
     tags: ["*"]
 
 jobs:
