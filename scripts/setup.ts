@@ -41,6 +41,7 @@ async function main() {
   const INITIAL_FUND_AMOUNT_BATCH_POSTER =
     process.env.INITIAL_FUND_AMOUNT_BATCH_POSTER
   const INITIAL_FUND_AMOUNT_STAKER = process.env.INITIAL_FUND_AMOUNT_STAKER
+  const setL1Price = !process.env.SKIP_SET_L1_PRICE
 
   if (
     !privateKey ||
@@ -182,7 +183,7 @@ async function main() {
       console.log(
         'Running l3Configuration script to configure your Orbit chain 📝📝📝📝📝'
       )
-      await l3Configuration(privateKey, L2_RPC_URL, L3_RPC_URL)
+      await l3Configuration(privateKey, L2_RPC_URL, L3_RPC_URL, setL1Price)
       rs.l3config = true
     }
     ////////////////////////////////
