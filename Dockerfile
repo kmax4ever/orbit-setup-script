@@ -4,5 +4,6 @@ COPY . .
 RUN apt-get update
 RUN apt install chromium -y
 RUN yarn install
+RUN npm install -g ts-node
 
 ENTRYPOINT [ "yarn run setup" ]
