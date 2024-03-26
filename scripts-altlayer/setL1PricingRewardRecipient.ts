@@ -8,9 +8,18 @@ export async function main() {
   const PRIVATE_KEY = process.env.PRIVATE_KEY || ''
   const L2_RPC_URL = process.env.L2_RPC_URL
   const L3_RPC_URL = process.env.L3_RPC_URL
-  const INBOX = process.env.INBOX || ''
-  const TOKEN_BRIDGE_CREATOR = process.env.TOKEN_BRIDGE_CREATOR || ''
   const RECIPIENT = process.env.RECIPIENT || ''
+  if (!PRIVATE_KEY || !L2_RPC_URL || !L3_RPC_URL || !RECIPIENT) {
+    throw new Error('Required environment variable not found')
+  }
+
+  const JUST_GENERATE_TARGET_CALLDATA = process.env.JUST_GENERATE_TARGET_CALLDATA
+
+  // To determine UpgradeExecutor proxy, provide either TOKEN_BRIDGE_CREATOR and INBOX, or just UPGRADE_EXECUTOR_PROXY
+  const TOKEN_BRIDGE_CREATOR = process.env.TOKEN_BRIDGE_CREATOR || ''
+  const INBOX = process.env.INBOX || ''
+  const UPGRADE_EXECUTOR_PROXY = process.env.UPGRADE_EXECUTOR_PROXY
+
   // Generating providers from RPCs
   const L2Provider = new ethers.providers.JsonRpcProvider(L2_RPC_URL)
   const L3Provider = new ethers.providers.JsonRpcProvider(L3_RPC_URL)
@@ -21,16 +30,24 @@ export async function main() {
   // Arb Owner precompile address
   const arbOwnerAddress = '0x0000000000000000000000000000000000000070'
 
-  const upgradeExecutorProxy = await getExecutorAddress(
-    TOKEN_BRIDGE_CREATOR,
-    INBOX,
-    L2Provider,
-    L3Provider
-  )
+  let executorContractAddress = ''
+  if (!UPGRADE_EXECUTOR_PROXY) {
+    console.log(`UPGRADE_EXECUTOR_PROXY is not provided, getting address...`)
+    executorContractAddress = await getExecutorAddress(
+      TOKEN_BRIDGE_CREATOR,
+      INBOX,
+      L2Provider,
+      L3Provider
+    )
+  } else {
+    console.log(`UPGRADE_EXECUTOR_PROXY is provided`)
+    executorContractAddress = UPGRADE_EXECUTOR_PROXY
+  }
+  console.log('executor address:', executorContractAddress)
 
   // Defining upgrade executor contract
   const executorContract__factory = new ethers.Contract(
-    upgradeExecutorProxy,
+    executorContractAddress,
     UpgradeExecutor.abi,
     l3signer
   )
@@ -49,6 +66,12 @@ export async function main() {
     'setL1PricingRewardRecipient',
     [RECIPIENT]
   )
+  console.log(`targetCallData:`, targetCallData)
+
+  if (JUST_GENERATE_TARGET_CALLDATA) {
+    return
+  }
+
   console.log(
     'Executing setL1PricingRewardRecipient through the UpgradeExecutor contract'
   )

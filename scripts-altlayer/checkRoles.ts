@@ -8,14 +8,15 @@ async function main() {
   const PRIVATE_KEY = process.env.PRIVATE_KEY
   const L2_RPC_URL = process.env.L2_RPC_URL
   const L3_RPC_URL = process.env.L3_RPC_URL
-  // Provide either TOKEN_BRIDGE_CREATOR and INBOX, or just UPGRADE_EXECUTOR
-  const TOKEN_BRIDGE_CREATOR = process.env.TOKEN_BRIDGE_CREATOR || ''
-  const INBOX = process.env.INBOX || ''
-  const UPGRADE_EXECUTOR_PROXY = process.env.UPGRADE_EXECUTOR_PROXY
   const OPERATOR = process.env.OPERATOR
   if (!PRIVATE_KEY || !L2_RPC_URL || !L3_RPC_URL || !OPERATOR) {
     throw new Error('Required environment variable not found')
   }
+
+  // To determine UpgradeExecutor proxy, provide either TOKEN_BRIDGE_CREATOR and INBOX, or just UPGRADE_EXECUTOR_PROXY
+  const TOKEN_BRIDGE_CREATOR = process.env.TOKEN_BRIDGE_CREATOR || ''
+  const INBOX = process.env.INBOX || ''
+  const UPGRADE_EXECUTOR_PROXY = process.env.UPGRADE_EXECUTOR_PROXY
 
   // Generating providers from RPCs
   const L2Provider = new ethers.providers.JsonRpcProvider(L2_RPC_URL)
