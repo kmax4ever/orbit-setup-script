@@ -41,7 +41,7 @@ async function main() {
   const INITIAL_FUND_AMOUNT_BATCH_POSTER =
     process.env.INITIAL_FUND_AMOUNT_BATCH_POSTER
   const INITIAL_FUND_AMOUNT_STAKER = process.env.INITIAL_FUND_AMOUNT_STAKER
-  const setL1Price = !process.env.SKIP_SET_L1_PRICE
+  const setL1Price = process.env.SKIP_SET_L1_PRICE != "true"
 
   if (
     !privateKey ||
