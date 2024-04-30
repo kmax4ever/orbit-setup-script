@@ -49,7 +49,7 @@ function createPublicClientFromChainInfo({
     testnet: true,
   })
 
-  return createPublicClient({ chain, transport: http(rpcUrl, {timeout: 60_000}) })
+  return createPublicClient({ chain, transport: http(rpcUrl, {timeout: 120_000}) })
 }
 
 export const TOKEN_BRIDGE_CREATOR_Arb_Sepolia =
