@@ -8,7 +8,8 @@ export async function l3Configuration(
   privateKey: string,
   L2_RPC_URL: string,
   L3_RPC_URL: string,
-  setL1Price: boolean
+  setL1Price: boolean,
+  l1PricingRewardRecipient: string
 ) {
   if (!privateKey || !L2_RPC_URL || !L3_RPC_URL) {
     throw new Error('Required environment variable not found')
@@ -104,6 +105,25 @@ export async function l3Configuration(
     )
   }
 
+  // Set the L1PricingRewardRecipient
+  console.log(
+    'Setting the L1PricingRewardRecipient address for the Orbit chain'
+  )
+  const tx4 = await ArbOwner.setL1PricingRewardRecipient(l1PricingRewardRecipient)
+
+  // Wait for the transaction to be mined
+  const receipt4 = await tx4.wait()
+  console.log(
+    `L1PricingRewardRecipient address is set on the block number ${await receipt4.blockNumber} on the Orbit chain`
+  )
+
+  // Check the status of the transaction: 1 is successful, 0 is failure
+  if (receipt4.status === 0) {
+    throw new Error(
+      'Setting Set the L1PricingRewardRecipient transaction failed'
+    )
+  }
+
   // Setting L1 basefee on L3
   const l2ChainId = (await L2Provider.getNetwork()).chainId
   if ((l2ChainId === 421614) || (l2ChainId === 42161)) {
@@ -124,16 +144,16 @@ export async function l3Configuration(
       const l2Basefee = await L2Provider.getGasPrice()
       const totalGasPrice = await l1BaseFeeEstimate.add(l2Basefee)
       console.log(`Setting L1 base fee estimate on L3 to ${totalGasPrice}`)
-      const tx4 = await ArbOwner.setL1PricePerUnit(totalGasPrice)
+      const tx5 = await ArbOwner.setL1PricePerUnit(totalGasPrice)
     
       // Wait for the transaction to be mined
-      const receipt4 = await tx4.wait()
+      const receipt5 = await tx5.wait()
       console.log(
-        `L1 base fee estimate is set on the block number ${await receipt4.blockNumber} on the Orbit chain`
+        `L1 base fee estimate is set on the block number ${await receipt5.blockNumber} on the Orbit chain`
       )
     
       // Check the status of the transaction: 1 is successful, 0 is failure
-      if (receipt4.status === 0) {
+      if (receipt5.status === 0) {
         throw new Error('Base Fee Setting failed')
       }
     } else {
@@ -146,16 +166,16 @@ export async function l3Configuration(
       console.log('Getting L1 base fee')
       const totalGasPrice = await L2Provider.getGasPrice()
       console.log(`Setting L1 base fee on L2 to ${totalGasPrice}`)
-      const tx4 = await ArbOwner.setL1PricePerUnit(totalGasPrice)
+      const tx5 = await ArbOwner.setL1PricePerUnit(totalGasPrice)
 
       // Wait for the transaction to be mined
-      const receipt4 = await tx4.wait()
+      const receipt5 = await tx5.wait()
       console.log(
-        `L1 base fee is set on the block number ${await receipt4.blockNumber} on the Orbit chain`
+        `L1 base fee is set on the block number ${await receipt5.blockNumber} on the Orbit chain`
       )
 
       // Check the status of the transaction: 1 is successful, 0 is failure
-      if (receipt4.status === 0) {
+      if (receipt5.status === 0) {
         throw new Error('Base Fee Setting failed')
       }
     } else {

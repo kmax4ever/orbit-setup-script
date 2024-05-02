@@ -335,7 +335,8 @@ export const createERC20Bridge = async (
   baseChainRpc: string,
   baseChainDeployerKey: string,
   childChainRpc: string,
-  rollupAddress: string
+  rollupAddress: string,
+  l1PricingRewardRecipient: string
 ) => {
   console.log('Creating token bridge for rollup', rollupAddress)
 
@@ -364,6 +365,7 @@ export const createERC20Bridge = async (
       minL2BaseFee: config.minL2BaseFee,
       networkFeeReceiver: config.networkFeeReceiver,
       infrastructureFeeCollector: config.infrastructureFeeCollector,
+      l1PricingRewardRecipient: l1PricingRewardRecipient,
       batchPoster: config.batchPoster,
       staker: config.staker,
       chainOwner: config.chainOwner,
