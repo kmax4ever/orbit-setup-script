@@ -106,7 +106,7 @@ export async function l3Configuration(
 
   // Setting L1 basefee on L3
   const l2ChainId = (await L2Provider.getNetwork()).chainId
-  if (l2ChainId === 421614) {
+  if ((l2ChainId === 421614) || (l2ChainId === 42161)) {
     console.log(`This is an L3 Orbit`)
 
     const arbGasInfoAbi = ArbGasInfo__abi
