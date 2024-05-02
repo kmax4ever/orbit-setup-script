@@ -12,6 +12,7 @@ export interface L3Config {
   minL2BaseFee: number
   networkFeeReceiver: string
   infrastructureFeeCollector: string
+  l1PricingRewardRecipient: string
   batchPoster: string
   staker: string
   chainId: number

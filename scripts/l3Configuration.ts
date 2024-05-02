@@ -8,8 +8,7 @@ export async function l3Configuration(
   privateKey: string,
   L2_RPC_URL: string,
   L3_RPC_URL: string,
-  setL1Price: boolean,
-  l1PricingRewardRecipient: string
+  setL1Price: boolean
 ) {
   if (!privateKey || !L2_RPC_URL || !L3_RPC_URL) {
     throw new Error('Required environment variable not found')
@@ -34,6 +33,7 @@ export async function l3Configuration(
   const minL2BaseFee = config.minL2BaseFee
   const networkFeeReceiver = config.networkFeeReceiver
   const infrastructureFeeCollector = config.infrastructureFeeCollector
+  const l1PricingRewardRecipient = config.l1PricingRewardRecipient
   const chainOwner = config.chainOwner
 
   // Check if the Private Key provided is the chain owner:
