@@ -86,7 +86,7 @@ services:
       service: proxy
 
   nitro:
-    image: kmax4ever/nitro2:latest
+    image: kmax4ever/nitro-2:latest
     ports:
       - "127.0.0.1:8449:8449"
     volumes:
