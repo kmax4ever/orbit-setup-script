@@ -86,7 +86,7 @@ services:
       service: proxy
 
   nitro:
-    image: offchainlabs/nitro-node:v2.3.0-3e14543
+    image: kmax4ever/nitro:nitro-dev-node
     ports:
       - "127.0.0.1:8449:8449"
     volumes:
