@@ -90,7 +90,7 @@ services:
     ports:
       - "127.0.0.1:8449:8449"
     volumes:
-      - "/config:/home/user/.arbitrum"
+      - "./config:/home/user/.arbitrum"
     command: --conf.file /home/user/.arbitrum/nodeConfig.json
 
   das-server:
