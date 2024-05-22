@@ -1,11 +1,11 @@
 {
   "chain": {
-    "info-json": "[{\"chain-id\":76743040456,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOAT L2 Chain\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":11,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0xcB6d94Cb2aFd46FA6abBe32CD485BE18a2bef308\"},\"chainId\":76743040456},\"rollup\":{\"bridge\":\"0x8af86Ae74c05Cc02f341B88447b469E80a241b93\",\"inbox\":\"0x1A6A591391E94Daa89bc60b182B568a1F99115cA\",\"sequencer-inbox\":\"0x6f30BEA5dCE70e1a44412385aD7BeD6102EC6d01\",\"rollup\":\"0x57ada4c4f2f87fA3fcfC58994E197848595C1813\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":46619950}}]",
-    "name": "GOAT L2 Chain"
+    "info-json": "[{\"chain-id\":97176724556,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOAT\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":11,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0xcB6d94Cb2aFd46FA6abBe32CD485BE18a2bef308\"},\"chainId\":97176724556},\"rollup\":{\"bridge\":\"0x91BA5fb11fB1aeE08E3C7073E038CD69FDE35934\",\"inbox\":\"0x5594061CfBE3F36B36eF286b8Ff180CeBfEcaBfF\",\"sequencer-inbox\":\"0xa4DEE782Da83d1cF160eb2e874b2512BAAD29A8D\",\"rollup\":\"0xc1b7a1d744F7c30028c8f89dE9a6b21372663d41\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":46775150}}]",
+    "name": "GOAT"
   },
   "parent-chain": {
     "connection": {
-      "url": "https://eth-holesky.public.blastapi.io"
+      "url": "https://sepolia-rollup.arbitrum.io/rpc"
     }
   },
   "http": {
@@ -51,7 +51,7 @@
     },
     "data-availability": {
       "enable": true,
-      "sequencer-inbox-address": "0x6f30BEA5dCE70e1a44412385aD7BeD6102EC6d01",
+      "sequencer-inbox-address": "0xa4DEE782Da83d1cF160eb2e874b2512BAAD29A8D",
       "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
       "rest-aggregator": {
         "enable": true,
