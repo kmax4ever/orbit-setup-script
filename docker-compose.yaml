@@ -90,14 +90,14 @@ services:
     ports:
       - "127.0.0.1:8449:8449"
     volumes:
-      - "./config:/home/user/.arbitrum"
+      - "./config:/home/user/.arbitrum:z"
     command: --conf.file /home/user/.arbitrum/nodeConfig.json
 
   das-server:
     image: offchainlabs/nitro-node:v2.3.0-3e14543
     entrypoint: [ "/bin/bash", "/das-server.sh" ]
     volumes:
-      - "./config:/home/user/.arbitrum"
+      - "./config:/home/user/.arbitrum:z"
       - "./das-server.sh:/das-server.sh"
       - "./das-data:/home/user/das-data"
     ports:
