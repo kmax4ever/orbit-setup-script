@@ -2,6 +2,8 @@ version: '3.9'
 
 services:
   db-init:
+    user: root
+    command: chmod 777 /var/lib/postgresql/data
     image: postgres:14
     volumes:
       - ./blockscout-db-data:/var/lib/postgresql/data
@@ -10,7 +12,6 @@ services:
       - -c
       - |
         chown -R 2000:2000 /var/lib/postgresql/data
-
   db:
     image: postgres:14
     user: 2000:2000
