@@ -8,7 +8,6 @@ server {
     listen       80;
     server_name  kmax4ever.io.vn;
     proxy_http_version 1.1;
-
     location ~ ^/(api|socket|sitemap.xml|auth/auth0|auth/auth0/callback|auth/logout) {
         proxy_pass            ${BACK_PROXY_PASS};
         proxy_http_version    1.1;

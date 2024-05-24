@@ -27,6 +27,8 @@ services:
       service: backend
     links:
       - db:database
+    ports:
+    - "127.0.0.1:4000:4000"
     environment:
         ETHEREUM_JSONRPC_HTTP_URL: http://nitro:8449/
         ETHEREUM_JSONRPC_TRACE_URL: http://nitro:8449/
