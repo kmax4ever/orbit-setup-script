@@ -19,6 +19,7 @@ server {
         proxy_set_header      Upgrade "$http_upgrade";
         proxy_set_header      Connection $connection_upgrade;
         proxy_cache_bypass    $http_upgrade;
+        large_client_header_buffers 4 32k;
     }
     location / {
         proxy_pass            ${FRONT_PROXY_PASS};
