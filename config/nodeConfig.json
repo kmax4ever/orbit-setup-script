@@ -1,7 +1,7 @@
 {
   "chain": {
-    "info-json": "[{\"chain-id\":38236936915,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOATL2\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":20,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":38236936915},\"rollup\":{\"bridge\":\"0xea4E4C59D5e107ADCafca3c44081909E0C873A6C\",\"inbox\":\"0x0b4aA3781E8611E3CAB59c88d34A535724051B99\",\"sequencer-inbox\":\"0xFD1961ab0322466f98e806D12b27f4326b693121\",\"rollup\":\"0xb8d04648B8719c0454b2402E35045f4d4939Bdac\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":47631648}}]",
-    "name": "GOATL2"
+    "info-json": "[{\"chain-id\":40032623688,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"My Arbitrum L3 Chain\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":false,\"InitialArbOSVersion\":11,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":40032623688},\"rollup\":{\"bridge\":\"0xD8484800B34b65f4Fb9B067C89A7BAB94549ecfc\",\"inbox\":\"0x33dF724991C9Ab3A3B1f95b8Fb1E1A2f3c1210A6\",\"sequencer-inbox\":\"0x5129CB0993DD5D73730C4aBf091Dd7a320A06f2C\",\"rollup\":\"0x99171e0e9f7a82aa1c86A5DE43d5f426677E37C3\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":47680656}}]",
+    "name": "My Arbitrum L3 Chain"
   },
   "parent-chain": {
     "connection": {
@@ -36,14 +36,14 @@
       "max-size": 90000,
       "enable": true,
       "parent-chain-wallet": {
-        "private-key": "9f99fb37817aef73d76036183f62d718beb10d91b03a39e8cd57892d16b840cc"
+        "private-key": "253600dbf0ba93b53ac123e10b368f09ed9dcfc14440b032065d486a180027d1"
       }
     },
     "staker": {
       "enable": true,
       "strategy": "MakeNodes",
       "parent-chain-wallet": {
-        "private-key": "9f99fb37817aef73d76036183f62d718beb10d91b03a39e8cd57892d16b840cc"
+        "private-key": "78ca190302c00716893fb592fb47913b02916d7b3ebcba74e46c2acfc8ff6a84"
       }
     },
     "dangerous": {
