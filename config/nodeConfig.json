@@ -1,7 +1,7 @@
 {
   "chain": {
-    "info-json": "[{\"chain-id\":90573353609,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOATL2\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":20,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":90573353609},\"rollup\":{\"bridge\":\"0x08F871eb84f2EcF01d43Cd1bE760C70A70dD3dE0\",\"inbox\":\"0x1D41503406ED9Ec23F9F0668729c8a8798a23Df9\",\"sequencer-inbox\":\"0x2668cbc1c9B11a343CE5A440bBef45E329FE11e7\",\"rollup\":\"0x1232452DA84aa5D7b82c66abBa857ff765206F39\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":47716312}}]",
-    "name": "GOATL2"
+    "info-json": "[{\"chain-id\":80045147846,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"My Arbitrum L3 Chain\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":false,\"InitialArbOSVersion\":11,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":80045147846},\"rollup\":{\"bridge\":\"0x7b87204B7b924626f0AaeD2c3b3889De2320588b\",\"inbox\":\"0x6f2c332484e0Aa7AbBA483fC820940f942ab39e9\",\"sequencer-inbox\":\"0x2b27920646C49a1a92d3E4d57F8c1Ca38046df03\",\"rollup\":\"0x5a0f36e8E160e484a1ba0F7FcaCaB73E37d68631\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":47718002}}]",
+    "name": "My Arbitrum L3 Chain"
   },
   "parent-chain": {
     "connection": {
@@ -36,34 +36,18 @@
       "max-size": 90000,
       "enable": true,
       "parent-chain-wallet": {
-        "private-key": "94a3c2a8672528a28b9e846ced2e05771c2fb9ae34b203ca35b305f8c96117b8"
+        "private-key": "59dd2b647e7897925008d344f68729764101f38baaf2c7ea075b11387f7c68e1"
       }
     },
     "staker": {
       "enable": true,
       "strategy": "MakeNodes",
       "parent-chain-wallet": {
-        "private-key": "c3cb9b6a15f97d515a645eb1b99bfff39fa828d9b7953bb52d21f558e43def9e"
+        "private-key": "c1abbd4240334a9e303b7072ed464c4b55d74c4406838902bb3c542a8e181b9b"
       }
     },
     "dangerous": {
       "no-sequencer-coordinator": true
-    },
-    "data-availability": {
-      "enable": true,
-      "sequencer-inbox-address": "0x2668cbc1c9B11a343CE5A440bBef45E329FE11e7",
-      "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
-      "rest-aggregator": {
-        "enable": true,
-        "urls": [
-          "http://localhost:9877"
-        ]
-      },
-      "rpc-aggregator": {
-        "enable": true,
-        "assumed-honest": 1,
-        "backends": "[{\"url\":\"http://localhost:9876\",\"pubkey\":\"YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\",\"signermask\":1}]"
-      }
     }
   },
   "execution": {
