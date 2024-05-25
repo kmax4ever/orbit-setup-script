@@ -48,22 +48,6 @@
     },
     "dangerous": {
       "no-sequencer-coordinator": true
-    },
-    "data-availability": {
-      "enable": true,
-      "sequencer-inbox-address": "0xFD1961ab0322466f98e806D12b27f4326b693121",
-      "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
-      "rest-aggregator": {
-        "enable": true,
-        "urls": [
-          "http://localhost:9877"
-        ]
-      },
-      "rpc-aggregator": {
-        "enable": true,
-        "assumed-honest": 1,
-        "backends": "[{\"url\":\"http://localhost:9876\",\"pubkey\":\"YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\",\"signermask\":1}]"
-      }
     }
   },
   "execution": {
