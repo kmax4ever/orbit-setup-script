@@ -95,7 +95,7 @@ services:
       - "127.0.0.1:8449:8449"
     volumes:
       - "./config:/home/user/.arbitrum:z"
-    command: --conf.file /home/user/.arbitrum/nodeConfig.json
+    command: --node.staker.enable=false --conf.file /home/user/.arbitrum/nodeConfig.json
 
   das-server:
     image: offchainlabs/nitro-node:v2.3.0-3e14543
