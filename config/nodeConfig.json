@@ -40,10 +40,10 @@
       }
     },
     "staker": {
-      "enable": false,
+      "enable": true,
       "strategy": "MakeNodes",
       "parent-chain-wallet": {
-        "private-key": "03131a263f54dc31d1c8e57e020db3349e42f902e9c1501dfa80195e34961ed9"
+        "private-key": "3e187d7db99cc7e66160b348d6d7836c748ade433668a43c851605f6fba5d4ee"
       }
     },
     "dangerous": {
