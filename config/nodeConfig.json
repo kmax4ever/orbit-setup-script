@@ -1,6 +1,6 @@
 {
   "chain": {
-    "info-json": "[{\"chain-id\":66670276616,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOATL2\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":false,\"InitialArbOSVersion\":11,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":66670276616},\"rollup\":{\"bridge\":\"0x497a47a273eA3CF39121e72Fe0c80e14F8c68816\",\"inbox\":\"0x9A4B6832392e687E710BfeA3990be7E0d63B36bf\",\"sequencer-inbox\":\"0x835345cBF75d0Fa63e87804f865BBA67AD26A040\",\"rollup\":\"0xa8164a4ad58D5294a0a4c3aeA78D8Bc784142a5A\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":48393781}}]",
+    "info-json": "[{\"chain-id\":85993434602,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOATL2\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":20,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":85993434602},\"rollup\":{\"bridge\":\"0x8bB49E66BcDb021b50aA716a8e60FE79e5C931c4\",\"inbox\":\"0xa3C3181b1485564968C271bAf40E00056c290b75\",\"sequencer-inbox\":\"0x99aFF7C0B44A9c2534357101d9184564D8570005\",\"rollup\":\"0x71904650f014b0620Bd02afA7cafD1F6a51dEe0e\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":48396098}}]",
     "name": "GOATL2"
   },
   "parent-chain": {
@@ -38,6 +38,20 @@
     },
     "dangerous": {
       "no-sequencer-coordinator": true
+    },
+    "data-availability": {
+      "enable": true,
+      "sequencer-inbox-address": "0x99aFF7C0B44A9c2534357101d9184564D8570005",
+      "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
+      "rest-aggregator": {
+        "enable": true,
+        "urls": ["http://localhost:9877"]
+      },
+      "rpc-aggregator": {
+        "enable": true,
+        "assumed-honest": 1,
+        "backends": "[{\"url\":\"http://localhost:9876\",\"pubkey\":\"YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\",\"signermask\":1}]"
+      }
     }
   },
   "execution": {
