@@ -6,9 +6,6 @@
   "parent-chain": {
     "connection": {
       "url": "https://ethereum-holesky.publicnode.com"
-    },
-    "blob-client": {
-      "beacon-url": "https://ethereum-holesky.publicnode.com"
     }
   },
   "http": {
