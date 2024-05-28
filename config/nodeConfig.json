@@ -1,6 +1,6 @@
 {
   "chain": {
-    "info-json": "[{\"chain-id\":65693581749,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOATL222\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":false,\"InitialArbOSVersion\":20,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":65693581749},\"rollup\":{\"bridge\":\"0xcB5121F579bC90C6B80d7FF803cB5c0f595b3432\",\"inbox\":\"0x83f41f833DEf1B9a580c76eb8729cB62CE7E2f0e\",\"sequencer-inbox\":\"0xB439c8F0cE54e488B84c15C6137eb7C0B13a2403\",\"rollup\":\"0x8B322F79CAC27825037ED44953cf290E291eDAC7\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":48679427}}]",
+    "info-json": "[{\"chain-id\":60686156268,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"GOATL222\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":false,\"InitialArbOSVersion\":20,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0x9db2c17B8de8580eEcF9DAc33eB864246e0EB398\"},\"chainId\":60686156268},\"rollup\":{\"bridge\":\"0x371CB7Cd6eBa550e3D8000bF430B5bb6Af700fAD\",\"inbox\":\"0x583a390e0A65E1D6408A512552C0e9fA446D32d8\",\"sequencer-inbox\":\"0x21Ff554F6e93A26Ff960964341B27e656FE66f2b\",\"rollup\":\"0x28d497F70D10E0AB4a1e7d2151e58718CD8163f7\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":48679966}}]",
     "name": "GOATL222"
   },
   "parent-chain": {
@@ -26,14 +26,14 @@
       "max-size": 90000,
       "enable": true,
       "parent-chain-wallet": {
-        "private-key": "734e87b1ec12daf5e8f8d4daa3c4da9a49395f3a7b6c9ad7810fbe07bd9200f4"
+        "private-key": "004ebbfcbf733054a363cfd6c2f518ca74110d8b450b37e5ed36c65940446cf7"
       }
     },
     "staker": {
       "enable": true,
       "strategy": "MakeNodes",
       "parent-chain-wallet": {
-        "private-key": "b6be5c715dac6dbfe9645d3d8dbb764b86d34aea4e4a038e8e739f8ffa40845c"
+        "private-key": "0e0f751a3436fb16a4f6b54fa185647349b131a268be0162549b600055929fd8"
       }
     },
     "dangerous": {
