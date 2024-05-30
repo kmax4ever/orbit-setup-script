@@ -22,5 +22,6 @@
   "validatorUtils": "0x93D7A2F6205C7e3655D8B476eEAcB9827d425222",
   "validatorWalletCreator": "0xd15045d212b4282a384d38Ec15cbfc7d75Ec54Bc",
   "deployedAtBlockNumber": 1638692,
-  "txHashDeployOrbit": "0xf1d24c021e817810de0591caa520770ac7e166a0c578424410734c28e0159789"
+  "txHashDeployOrbit": "0xf1d24c021e817810de0591caa520770ac7e166a0c578424410734c28e0159789",
+  "parent-chain-node-url": "https://ethereum-holesky.publicnode.com"
 }
