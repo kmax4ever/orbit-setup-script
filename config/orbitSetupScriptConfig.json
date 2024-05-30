@@ -7,7 +7,7 @@
   "chainId": 85380884115,
   "chainName": "GOATL2",
   "minL2BaseFee": 100000000,
-  "parentChainId": "17000",
+  "parentChainId": 17000,
   "utils": "0x93D7A2F6205C7e3655D8B476eEAcB9827d425222",
   "rollup": "0x8942D0ab1AF84C967F89bD901F15BE1ED4D83f74",
   "inbox": "0x85cED1B137A6690c00CA2782FC5186EFCa36d03A",
