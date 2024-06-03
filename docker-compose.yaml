@@ -88,7 +88,7 @@ services:
   #     service: proxy
 
   nitro:
-    image: hadv/nitro-node:eigenda
+    image: hadv/nitro:eigenda
     user: root
     command: chmod 777 /home/user/.arbitrum
     ports:
