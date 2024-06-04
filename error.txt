@@ -1,0 +1,184 @@
+nitro_1          | INFO [06-04|06:24:10.064] Inbox parse sequencer message:           payload=ed0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:10.064] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:10.065] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | INFO [06-04|06:24:10.666] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:10.676] InboxTracker                             sequencerBatchCount=2 messageCount=40 l1Block=1,668,434 l1Timestamp=2024-06-04T05:25:11+0000
+nitro_1          | WARN [06-04|06:24:12.447] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.448] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.448] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.453] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.453] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.453] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.454] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.455] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.455] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.455] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.455] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.455] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.456] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.456] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.456] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.456] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.456] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.456] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.456] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.456] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.456] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.457] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.457] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.457] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.459] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.459] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.459] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.459] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.459] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.459] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.460] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.460] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.460] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.460] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.460] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.460] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.465] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.466] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.466] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.467] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.467] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.467] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.467] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.467] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.467] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.482] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:12.482] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:12.482] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:12.616] Served eth_getCode                       conn=172.18.0.6:45288 reqid=0  duration="320.747µs" err="header not found"
+nitro_1          | WARN [06-04|06:24:12.617] Served eth_getCode                       conn=172.18.0.6:46530 reqid=3  duration="30.306µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:12.622] Served eth_getBalance                    conn=172.18.0.6:46530 reqid=3  duration="19.706µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:12.622] Served eth_getBalance                    conn=172.18.0.6:45288 reqid=0  duration="149.268µs" err="header not found"
+nitro_1          | INFO [06-04|06:24:13.019] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.489] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.489] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.495] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.497] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.524] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.526] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.543] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.549] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.555] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.560] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.562] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.565] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.571] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.589] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:13.620] Recording preimage data for EigenDA 
+nitro_1          | WARN [06-04|06:24:15.614] Served eth_getCode                       conn=172.18.0.6:45300 reqid=0  duration="161.681µs" err="header not found"
+nitro_1          | WARN [06-04|06:24:15.617] Served eth_getCode                       conn=172.18.0.6:46522 reqid=3  duration="24.716µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:15.621] Served eth_getBalance                    conn=172.18.0.6:45300 reqid=0  duration="163.535µs" err="header not found"
+nitro_1          | WARN [06-04|06:24:15.623] Served eth_getBalance                    conn=172.18.0.6:46522 reqid=3  duration="18.955µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:18.625] Served eth_getCode                       conn=172.18.0.6:45292 reqid=0  duration="133.739µs" err="header not found"
+nitro_1          | WARN [06-04|06:24:18.627] Served eth_getCode                       conn=172.18.0.6:46530 reqid=3  duration="13.456µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:18.638] Served eth_getBalance                    conn=172.18.0.6:46530 reqid=3  duration="18.955µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:18.645] Served eth_getBalance                    conn=172.18.0.6:46530 reqid=0  duration="176.379µs" err="header not found"
+nitro_1          | WARN [06-04|06:24:21.628] Served eth_getCode                       conn=172.18.0.6:45292 reqid=0  duration="134.02µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:21.634] Served eth_getCode                       conn=172.18.0.6:46530 reqid=3  duration="16.249µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:21.645] Served eth_getBalance                    conn=172.18.0.6:46530 reqid=0  duration="654.389µs" err="header not found"
+nitro_1          | WARN [06-04|06:24:21.646] Served eth_getBalance                    conn=172.18.0.6:45292 reqid=3  duration="22.422µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:24.626] Served eth_getCode                       conn=172.18.0.6:46526 reqid=3  duration="29.034µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:24.626] Served eth_getCode                       conn=172.18.0.6:46528 reqid=0  duration="41.066µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:24.629] Served eth_getBalance                    conn=172.18.0.6:46526 reqid=3  duration="13.054µs"  err="header not found"
+nitro_1          | WARN [06-04|06:24:24.631] Served eth_getBalance                    conn=172.18.0.6:46526 reqid=0  duration="143.679µs" err="header not found"
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.096] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.112] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.113] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.175] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.175] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.175] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.231] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.231] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.231] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | WARN [06-04|06:24:25.238] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.242] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.242] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.255] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.269] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | WARN [06-04|06:24:25.260] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.269] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.269] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | INFO [06-04|06:24:25.270] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.293] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.293] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.293] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.317] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.324] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.324] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.349] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.357] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.357] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | WARN [06-04|06:24:25.564] No DAS configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.564] Start recovering payload from eigenda:   data=0000008b1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4
+nitro_1          | INFO [06-04|06:24:25.564] Data pointer:                            info=1ee248912ea975e4f85bf7baaf0f7df99888916b0e6c7be9a8ae572dc6477ad4 index=139
+nitro_1          | INFO [06-04|06:24:25.705] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:25.725] Recording preimage data for EigenDA 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.781] Recording preimage data for EigenDA 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.787] Recording preimage data for EigenDA 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.813] Recording preimage data for EigenDA 
+nitro_1          | INFO [06-04|06:24:25.825] Recording preimage data for EigenDA 
+nitro_1          | ERROR[06-04|06:24:25.852] Error during validation                  err="validation failed: expected {0x9ffc9440e2e8e370f54fa636ae600485a682acaeaf24ee453769324ffdfc2040 0x0000000000000000000000000000000000000000000000000000000000000000 1 11} got {0x9ffc9440e2e8e370f54fa636ae600485a682acaeaf24ee453769324ffdfc2040 0x0000000000000000000000000000000000000000000000000000000000000000 2 0}"
+nitro_1          | ERROR[06-04|06:24:25.852] shutting down due to fatal error         err="validation failed: expected {0x9ffc9440e2e8e370f54fa636ae600485a682acaeaf24ee453769324ffdfc2040 0x0000000000000000000000000000000000000000000000000000000000000000 1 11} got {0x9ffc9440e2e8e370f54fa636ae600485a682acaeaf24ee453769324ffdfc2040 0x0000000000000000000000000000000000000000000000000000000000000000 2 0}"
+nitro_1          | ERROR[06-04|06:24:25.852] shut down due to fatal error             err="validation failed: expected {0x9ffc9440e2e8e370f54fa636ae600485a682acaeaf24ee453769324ffdfc2040 0x0000000000000000000000000000000000000000000000000000000000000000 1 11} got {0x9ffc9440e2e8e370f54fa636ae600485a682acaeaf24ee453769324ffdfc2040 0x0000000000000000000000000000000000000000000000000000000000000000 2 0}"
+nitro_1          | INFO [06-04|06:24:25.853] rpc response                             method=validation_validate logId=41 err="context canceled"                    result="{\"BlockHash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":0,\"PosInBatch\":0}" attempt=0 args="[{\"Id\":19,\"HasDelayedMsg\":false,\"DelayedMsgNr\":0,\"PreimagesB64\":{\"0\":{\"huGuhdYiO+/Eme/BLQTwHWxANPO/vNGFCiHpuayaNyE=\":\"+GmgINFOyJwgHCOqYOIx45k7OWazP/H1XRmOwlmAlXqzIGW4RvhEAYCgGwAHhakQQmLYtSfjY9UfxPd9fmqTm2jSkba6njBewq6gxdJGAYb3IzySfn2y3McDwOUAtlPKgic7e/rYBF2FpHA=\",\"1+UiOJZlvtCH4R/qwU88tfIMw0vXg8mcmKE4ME7j9xo=\":\"+FGAgKCJ6T/HB06MehQNM34w4u/796DkOg246J5GemJBVr/qqoCAgICAgICgYGLik/DgFPpHTiKp2RtZKbzaSK+18oHGzpOUSfgkqESAgICAgIA=\",\"BXCcXKIk1D0OsrV77zu9A3X+cpxdwuq7u4wWwVDJXkE=\":\"+EOgIIzOE607Vcvsp238hPhYj8UCpHIyYEvxHVoDEsEscsqhoGxpbkJsb2NrIjowLCJsb25kb25CbG9jayI6MCwiY2xp\",\"hC4qCxAaY8m+hXlVlDWNBmz8zF5cE+NRnccyKcD1Sw0=\":\"+EOgIMZ1AuPLNtGlYjd6gdpmROdRmPLSFoxJ0cQrKXfrfHehoGl0cnVtIjp7IkVuYWJsZUFyYk9TIjp0cnVlLCJBbGxv\",\"vyomXJ34WNMUiMN7+/bjDkoSLh2V7Y0MMFL76rUKe2A=\":\"+FGAgICAgICAgICgfxstwEOKW/Z1abGKRxsf0gLXBg0Z2EU8FRk4qy9Xd5mgBINaHBwN3QxjZVeq9v6YR/o6qPcXBZmB0XeZGvKDehqAgICAgIA=\",\"fxstwEOKW/Z1abGKRxsf0gLXBg0Z2EU8FRk4qy9Xd5k=\":\"5Z88mGul6O142R9Q0xz1hFwNepvySLpfQ0rNtY4uYCyZhINqz8A=\",\"jcTG4JKty2JdAudb4TliX5wQ0+UmIGjMXze6qnA8S/4=\":\"+Q..YItNGM2xB7uuHDiHNeyPx/DNv+8+Bt9o+6dqs1i09y/7qAuHUJuC0thm9S+2ATwPn2nA/DAPzId0Ufd7XsrhMvdmpk/px/Onsrl4j6foFl/RqT3PnbLYTQuifgjST8xKdYWeJexK327v/rn/mnbkPA4RcdDb8uJ62AHXmJLf3UAXigX9pCoS3BwTXJvQ59MMXZXLKVq22dcXOZcV42LfV96Apuo3NPYBd0rYAY/3nkJ/s0o6R98OAVQxmSBES9kDUP6m+0momEkuuLQ2USogBFSa11EtTYgkoJ/dR3Hen43mZVObKCi9MxZnzUEE1SBGdmAwAg8O+39UamVE+FU8VT0h20scFfzGLg9uVdUCg88WuRZPon81rg212SxmvIWt89g/Bm6jbo8QlULJB+KWOba7fwxmHiVhHa6N1Hui44o4tu9xpiYmZ7zLhHFn8Q4Fv91jSFbB97SqTjpowpyaUwnfOY4hCPB5PRefg/p58T/R+S38evjpMABO5c3c6MPBqcfDQyLZAsRcqC6uDCZByQgG5yQwm2asQf57yFMrj664aukTg4fK8gEL9HHzQyDPDqLrWkP47y60pjbQmFx7ARllm44rgxTacAvvbsBhrvXghJkZd+odh5e62SsrtdjFMJlxyCIF/Oqm8B\"}},\"BatchInfo\":[{\"Number\":1,\"DataB64\":\"AAAAAGZdYYAAAAAAZl7BEAAAAAAAGV7SAAAAAAAZdV4AAAAAAAAADO0AAACLHuJIkS6pdeT4W/e6rw99+ZiIkWsObHvpqK5XLcZHetQ=\"}],\"DelayedMsgB64\":\"\",\"StartState\":{\"BlockHash\":\"0x7657456ba7b686a16ae0854723d57d24cb38c50da2308afcfa132b4b13691c75\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":1,\"PosInBatch\":18}}, \"0xda4e3ad5e7feacb817c21c8d0220da7650fe9051ece68a3f0b1c5d38bbb27b21\"]"
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.853] rpc response                             method=validation_validate logId=39 err="context canceled"                    result="{\"BlockHash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":0,\"PosInBatch\":0}" attempt=0 args="[{\"Id\":20,\"HasDelayedMsg\":false,\"DelayedMsgNr\":0,\"PreimagesB64\":{\"0\":{\"jML5qSnNS9OdaOWH1XwWX+EoeIJzblQJPmWRwf4YbYQ=\":\"4Z82hsSHj4J6XSb+RGERJW8DUyR1Nzd7gdmsbJ4Pr/H/CA==\",\"W5Aaecib+4dUf4Pq73i160VKx/i+lqjxwG6vQ1gS/CU=\":\"+EOgIDiCgRJhbI8QAZAI5U2U/brCatoZSYPb5flPQR/BjxWhoCI6MCwiZWlwMTUwSGFzaCI6IjB4MDAwMDAwMDAwMDAw\",\"V7U3rs7ZI5liz2pGSwPDH8HdlnZc9HvYlTfsZEglwDc=\":\"+FGAgICgvyxe+8wxuPB6syP3shfey9oBApqEBfx8eD7zmzfO+GmAgICAoJAIloOHdR7BgTQSTVpQ/2mgPOmE1Wfl5yrp55qsqHdsgICAgICAgIA=\",\"zGRv409neAXBS5wPdaCIchM6Q2RrhFdvHuskjl8dMG8=\":\"+QFRoH4pUIzXGDBb8RGzC1zvGTm0HVGlCfxTfkvb03Aej/rDgKBxirAdXi+aXUFPgzxDFg5y7SvYdjgIXuKcByN0oy6cqYCgNCXedSf6fLd1sycB2za5WMgPPRMUbiy2BxV5FZ0rwkuAoJ3RfIStnIBdZpu+5a4SDHr7O5j3AWuJHdnck+WRYdE0oF9xRbCL3jgXLtxSzGdRMjVs2rz7ibZtYV5fQb0MUmuooHm/+zIdCK5WkmCnFuCapA9XzcALn/F4VeooRQgxq0LdoIHBYVlV4njiBcWAT5HuaTjg6AdIOrs303BZt7/rgeyFoFrfTklR8mch0SI98KXphAqGIzWPqajL5EelZhBmiTOQoPZkfCzJYzjR1OX8dAF461vR1itq2Bg7F5VE7l0gfEX7gICAoP6RZ8COJn5+KVUFGYFFsLf4TFSimYSOuWieUjePVm5AgA==\",\"4H4tjoEh0dVUKRNKi6hH1+I0qmoJoDX7oW4fHVGG6OY=\"..YItNGM2xB7uuHDiHNeyPx/DNv+8+Bt9o+6dqs1i09y/7qAuHUJuC0thm9S+2ATwPn2nA/DAPzId0Ufd7XsrhMvdmpk/px/Onsrl4j6foFl/RqT3PnbLYTQuifgjST8xKdYWeJexK327v/rn/mnbkPA4RcdDb8uJ62AHXmJLf3UAXigX9pCoS3BwTXJvQ59MMXZXLKVq22dcXOZcV42LfV96Apuo3NPYBd0rYAY/3nkJ/s0o6R98OAVQxmSBES9kDUP6m+0momEkuuLQ2USogBFSa11EtTYgkoJ/dR3Hen43mZVObKCi9MxZnzUEE1SBGdmAwAg8O+39UamVE+FU8VT0h20scFfzGLg9uVdUCg88WuRZPon81rg212SxmvIWt89g/Bm6jbo8QlULJB+KWOba7fwxmHiVhHa6N1Hui44o4tu9xpiYmZ7zLhHFn8Q4Fv91jSFbB97SqTjpowpyaUwnfOY4hCPB5PRefg/p58T/R+S38evjpMABO5c3c6MPBqcfDQyLZAsRcqC6uDCZByQgG5yQwm2asQf57yFMrj664aukTg4fK8gEL9HHzQyDPDqLrWkP47y60pjbQmFx7ARllm44rgxTacAvvbsBhrvXghJkZd+odh5e62SsrtdjFMJlxyCIF/Oqm8B\"}},\"BatchInfo\":[{\"Number\":1,\"DataB64\":\"AAAAAGZdYYAAAAAAZl7BEAAAAAAAGV7SAAAAAAAZdV4AAAAAAAAADO0AAACLHuJIkS6pdeT4W/e6rw99+ZiIkWsObHvpqK5XLcZHetQ=\"}],\"DelayedMsgB64\":\"\",\"StartState\":{\"BlockHash\":\"0x4387907e2c7c0a08e7c2fbd36867c7d43d991ccff9a61584d39952984fa89646\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":1,\"PosInBatch\":19}}, \"0xda4e3ad5e7feacb817c21c8d0220da7650fe9051ece68a3f0b1c5d38bbb27b21\"]"
+nitro_1          | INFO [06-04|06:24:25.859] HTTP server stopped                      endpoint=[::]:8449
+nitro_1          | INFO [06-04|06:24:25.862] HTTP server stopped                      endpoint=127.0.0.1:8549
+nitro_1          | INFO [06-04|06:24:25.862] rpc response                             method=validation_validate logId=40 err="websocket: close 1006 (abnormal closure): unexpected EOF" result="{\"BlockHash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":0,\"PosInBatch\":0}" attempt=0 args="[{\"Id\":20,\"HasDelayedMsg\":false,\"DelayedMsgNr\":0,\"PreimagesB64\":{\"0\":{\"ycISQMO6/4Mv/5qlFsaKZInUdUFih/FA3myu8rH/1Cs=\":\"+QFxoIPLTVYcQtjuuurrxlOyvm5yLeY6RlWaCSmrHcCdUkn7oNJniviyzVLHijqmIlxVkxUvYbCJh5/wGO/C44gs5GZooAlFN5cRg71X5Cbp5xnZ7kK20DQkzYpC+V0lyMLXQNFSgKB2/fnUMR5AnJxcsTS51eRAq2OV8GDP/XZuzVl89K/z8qCIhA+EQb8Ob/ey5aQWnIqlMcZtrZG4LDMbQlo0cPf5XICAgKAZyizmwBu5o19frDaiDFVWxw35ANET8b7TGZWk6lRTPaBpdkSW4j6ecOO8UvlM7DRFmaKkHJuf74Mr8Zv6EGApoaB0IaLtBNgp8sPoFH8MzejZzDVYvQiuFvCeSX/TYLgUhqC3cCqheZeplrCQkPVPnswmMZ5NlxfQRZmIN6A9n7gDoaBM3YmIwaPZyzEJqdaWbEyaKr5oJozWi/zxPsebK4A8KqBNOfc7qhte5hixlXn9BE1VDaawkQmGXl+hxbGUPX85b4CA\",\"RAIwKORDtH4tlAab9J3/MMnva9LSrFge1abIhITJWm4=\":\"+EKfMIavw53Qwo/f+up1DUPOEaWUgP38tYv8VdTECGmIuKGgaWFsQXJiT1NWZXJzaW9uIjoxMSwiSW5pdGlhbENoYWk=\",\"SGc5YJ6Ii0wepV2lXuxNpUy9l4++cH25mGzGe4aHEjU=\":\"+FGAoPzGNibuh5s70U6y++JRmpis4XyF5SCEGq28ND37brojgICAgICAoD+0wwLgDEgJsGiRAc3q/aGSd0s0FsipZ8aLWpxwnuiwgICAgICAgIA=\",\"vJZEUfTYzUO5g1SD9rZiCdV8JwV50ZL5suWdLG4fJkk=\":\"+FGgUHttwNq3xN+qb5wKqz4GBgpxJZJ5TZ6uex4GUhDz/m6AgICAgICA..YItNGM2xB7uuHDiHNeyPx/DNv+8+Bt9o+6dqs1i09y/7qAuHUJuC0thm9S+2ATwPn2nA/DAPzId0Ufd7XsrhMvdmpk/px/Onsrl4j6foFl/RqT3PnbLYTQuifgjST8xKdYWeJexK327v/rn/mnbkPA4RcdDb8uJ62AHXmJLf3UAXigX9pCoS3BwTXJvQ59MMXZXLKVq22dcXOZcV42LfV96Apuo3NPYBd0rYAY/3nkJ/s0o6R98OAVQxmSBES9kDUP6m+0momEkuuLQ2USogBFSa11EtTYgkoJ/dR3Hen43mZVObKCi9MxZnzUEE1SBGdmAwAg8O+39UamVE+FU8VT0h20scFfzGLg9uVdUCg88WuRZPon81rg212SxmvIWt89g/Bm6jbo8QlULJB+KWOba7fwxmHiVhHa6N1Hui44o4tu9xpiYmZ7zLhHFn8Q4Fv91jSFbB97SqTjpowpyaUwnfOY4hCPB5PRefg/p58T/R+S38evjpMABO5c3c6MPBqcfDQyLZAsRcqC6uDCZByQgG5yQwm2asQf57yFMrj664aukTg4fK8gEL9HHzQyDPDqLrWkP47y60pjbQmFx7ARllm44rgxTacAvvbsBhrvXghJkZd+odh5e62SsrtdjFMJlxyCIF/Oqm8B\"}},\"BatchInfo\":[{\"Number\":1,\"DataB64\":\"AAAAAGZdYYAAAAAAZl7BEAAAAAAAGV7SAAAAAAAZdV4AAAAAAAAADO0AAACLHuJIkS6pdeT4W/e6rw99+ZiIkWsObHvpqK5XLcZHetQ=\"}],\"DelayedMsgB64\":\"\",\"StartState\":{\"BlockHash\":\"0x4387907e2c7c0a08e7c2fbd36867c7d43d991ccff9a61584d39952984fa89646\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":1,\"PosInBatch\":19}}, \"0x8b104a2e80ac6165dc58b9048de12f301d70b02a0ab51396c22b4b4b802a16a4\"]"
+nitro_1          | INFO [06-04|06:24:25.862] rpc response                             method=validation_validate logId=42 err="websocket: close 1006 (abnormal closure): unexpected EOF" result="{\"BlockHash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":0,\"PosInBatch\":0}" attempt=0 args="[{\"Id\":19,\"HasDelayedMsg\":false,\"DelayedMsgNr\":0,\"PreimagesB64\":{\"0\":{\"EDezzKJWLpHgDafrJj/iGjDB85ImDFVlc4BunWZVF/k=\":\"+EKfMHOPOUhuX5JvzjLbqz7ebzCoHo1amIoqZ1NSak+otqGgMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJlaXAxNTVCbG8=\",\"4H4tjoEh0dVUKRNKi6hH1+I0qmoJoDX7oW4fHVGG6OY=\":\"+PGAgICAoCZ0daVv4yLjo/yO3REDUQ+iG/ENT4oQyHMo62lB9ZdVoLPSJROy6oDZaIKs4SbFPc3tVcXTSnwEeBqiewB3URPioMRn6cPNE19WCUIWi7xu4gXAR3taBwmZ0ffcQD+jd9x4gICg542E//XvofX+9VAlF+gBswhBfUZ8w8dF0SqORGLcPnmAgKAi2dbjqIRbj8bDTklG7jue/9c8tOHuhsN9ivEk39g6paC/WBK4/H+T2+b8Rxyl9ivgeKOZ4kR8TzupFcsa5nXCNYCgST1olvlg30t9KSNAzh62cZ08RHUZvyCL6ZPxEnuKyYWA\",\"dRXg2SdbaPhGOCZnro5p9Sf4LKe8auqseOK0DJNfs48=\":\"+FGAoPzGNibuh5s70U6y++JRmpis4XyF5SCEGq28ND37brojgICAgICAoAAICcPS2b58VGqvCGMNJRd/13+iK02vmPR0b/EUKv2igICAgICAgIA=\",\"Od9IksG8duj/1aSH/LLo9g0fB0XIrWWXpxewn0yBVME=\":\"96Aza2OEteynkcYnYRUtDHm7BgTBBKX7b06wcD8xVLs9sJWUnbLBe43oWA7s+drDPrhkJG4Os5g=\",\"HZXT8oh3b8X1XD/dJUb3qsxzhyzwe2bYg0OgygoBllM=\":\"6J84fwdzoXHdykeA+bMotOPHti2XPLlvCNVO6ep9cQnjh4anffmUWwA=\",\"rjiAIVDqKRD5BI51KJBfnh5IibRbL5qphqFsrJbaDrI..YItNGM2xB7uuHDiHNeyPx/DNv+8+Bt9o+6dqs1i09y/7qAuHUJuC0thm9S+2ATwPn2nA/DAPzId0Ufd7XsrhMvdmpk/px/Onsrl4j6foFl/RqT3PnbLYTQuifgjST8xKdYWeJexK327v/rn/mnbkPA4RcdDb8uJ62AHXmJLf3UAXigX9pCoS3BwTXJvQ59MMXZXLKVq22dcXOZcV42LfV96Apuo3NPYBd0rYAY/3nkJ/s0o6R98OAVQxmSBES9kDUP6m+0momEkuuLQ2USogBFSa11EtTYgkoJ/dR3Hen43mZVObKCi9MxZnzUEE1SBGdmAwAg8O+39UamVE+FU8VT0h20scFfzGLg9uVdUCg88WuRZPon81rg212SxmvIWt89g/Bm6jbo8QlULJB+KWOba7fwxmHiVhHa6N1Hui44o4tu9xpiYmZ7zLhHFn8Q4Fv91jSFbB97SqTjpowpyaUwnfOY4hCPB5PRefg/p58T/R+S38evjpMABO5c3c6MPBqcfDQyLZAsRcqC6uDCZByQgG5yQwm2asQf57yFMrj664aukTg4fK8gEL9HHzQyDPDqLrWkP47y60pjbQmFx7ARllm44rgxTacAvvbsBhrvXghJkZd+odh5e62SsrtdjFMJlxyCIF/Oqm8B\"}},\"BatchInfo\":[{\"Number\":1,\"DataB64\":\"AAAAAGZdYYAAAAAAZl7BEAAAAAAAGV7SAAAAAAAZdV4AAAAAAAAADO0AAACLHuJIkS6pdeT4W/e6rw99+ZiIkWsObHvpqK5XLcZHetQ=\"}],\"DelayedMsgB64\":\"\",\"StartState\":{\"BlockHash\":\"0x7657456ba7b686a16ae0854723d57d24cb38c50da2308afcfa132b4b13691c75\",\"SendRoot\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"Batch\":1,\"PosInBatch\":18}}, \"0x8b104a2e80ac6165dc58b9048de12f301d70b02a0ab51396c22b4b4b802a16a4\"]"
+nitro_1          | INFO [06-04|06:24:25.862] delayed sequencer: context done          err="context canceled"
+nitro_1          | ERROR[06-04|06:24:25.866] Failed to query data from EigenDA        err="rpc error: code = Canceled desc = context canceled"
+nitro_1          | ERROR[06-04|06:24:25.866] Failed to query data from EigenDA        err="rpc error: code = Canceled desc = context canceled"
+nitro_1          | INFO [06-04|06:24:25.866] rpc response                             method=eth_getLogs         logId=5044 err="Post \"https://ethereum-holesky.publicnode.com\": context canceled" result=null attempt=0 args="[{\"address\":[\"0xfab58cc7cde790b2dddd78fd986ee366c0dcadb4\"],\"fromBlock\":\"0x197552\",\"toBlock\":\"0x197552\",\"topics\":[[\"0x7394f4a19a13c7b92b5bb71033245305946ef78452f7b4986ac1390b5df4ebd7\"]]}]"
+nitro_1          | ERROR[06-04|06:24:25.867] error trying to create validation node   err="Post \"https://ethereum-holesky.publicnode.com\": context canceled" created=12 processed=54 processedErr=nil
+nitro_1          | ERROR[06-04|06:24:25.866] Failed to query data from EigenDA        err="rpc error: code = Canceled desc = context canceled"
+nitro_1          | ERROR[06-04|06:24:25.866] Failed to query data from EigenDA        err="rpc error: code = Canceled desc = context canceled"
+nitro_1          | INFO [06-04|06:24:25.868] Persisted trie from memory database      nodes=0  size=0.00B   time="11.049µs"  gcnodes=0 gcsize=0.00B gctime="18.187µs" livenodes=0 livesize=0.00B
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | INFO [06-04|06:24:25.871] Blockchain stopped 
+nitro_1          | ERROR[01-01|00:00:00.900] No DAS Reader configured, but sequencer message found with DAS header 
+nitro_1          | ERROR[01-01|00:00:00.360] Zero state root hash! 
+orbit-setup-script_nitro_1 exited with code 1
